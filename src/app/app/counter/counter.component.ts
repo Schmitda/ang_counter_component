@@ -2,13 +2,9 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 
 @Component({
-
   selector: 'pg-counter',
-
   templateUrl: './counter.component.html',
-
-  styleUrls: ['./counter.component.scss']
-
+  styleUrls: ['./counter.component.css']
 })
 
 export class CounterComponent implements OnInit {
